@@ -664,28 +664,36 @@
     ]
   },
   "packageFolders": {
-    "/home/iury/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\vapo_\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "/home/iury/RiderProjects/TreinaWeb.CSharpAvancado/TreinaWeb.CSharpAvancado.CovarianciaContravariancia/TreinaWeb.CSharpAvancado.CovarianciaContravariancia.csproj",
+      "projectUniqueName": "C:\\Users\\vapo_\\Source\\Repos\\TreinaWeb\\TreinaWeb.CSharpAvancado.CovarianciaContravariancia\\TreinaWeb.CSharpAvancado.CovarianciaContravariancia.csproj",
       "projectName": "TreinaWeb.CSharpAvancado.CovarianciaContravariancia",
-      "projectPath": "/home/iury/RiderProjects/TreinaWeb.CSharpAvancado/TreinaWeb.CSharpAvancado.CovarianciaContravariancia/TreinaWeb.CSharpAvancado.CovarianciaContravariancia.csproj",
-      "packagesPath": "/home/iury/.nuget/packages/",
-      "outputPath": "/home/iury/RiderProjects/TreinaWeb.CSharpAvancado/TreinaWeb.CSharpAvancado.CovarianciaContravariancia/obj/",
+      "projectPath": "C:\\Users\\vapo_\\Source\\Repos\\TreinaWeb\\TreinaWeb.CSharpAvancado.CovarianciaContravariancia\\TreinaWeb.CSharpAvancado.CovarianciaContravariancia.csproj",
+      "packagesPath": "C:\\Users\\vapo_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vapo_\\Source\\Repos\\TreinaWeb\\TreinaWeb.CSharpAvancado.CovarianciaContravariancia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/iury/.config/NuGet/NuGet.Config"
+        "C:\\Users\\vapo_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -703,7 +711,6 @@
       "netcoreapp2.0": {
         "dependencies": {
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
